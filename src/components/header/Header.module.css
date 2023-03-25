@@ -1,0 +1,13 @@
+.test {
+
+    background-color: var(--gray-700);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 173px;
+}
+
+
+.test img {
+    background-color: var(--gray-700);
+}

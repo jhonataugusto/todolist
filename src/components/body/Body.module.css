@@ -1,0 +1,168 @@
+.body_wrapper {
+
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.add_task_wrapper {
+
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    background-image: linear-gradient(to bottom, var(--gray-700) 50%, transparent 50%);
+}
+
+.add_task_input {
+
+    display: flex;
+    align-items: center;
+
+    background: var(--gray-500);
+
+    color: var(--gray-300);
+
+    padding: 10px;
+
+    width: 638px;
+    height: 54px;
+
+    border-radius: 8px;
+    border: 1px solid var(--gray-700);
+}
+
+input::placeholder {
+
+    color: var(--gray-300);
+    position: relative;
+}
+
+input:invalid {
+    color: var(--danger);
+}
+
+input:focus {
+
+    color: var(--gray-200);
+    display: flex;
+
+    border: 1px solid var(--blue);
+    outline: none;
+}
+
+.add_task_button {
+
+    background-color: var(--blue-dark);
+
+    color: white;
+    font-weight: 800;
+    font-size: 0.875rem;
+
+    width: 90px;
+    height: 52px;
+
+    border-radius: 8px;
+    border: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    cursor: pointer;
+}
+
+.add_task_button:hover {
+    background-color: var(--blue);
+}
+
+.add_task_button_icon {
+
+    background-color: transparent;
+    position: relative;
+}
+
+.tasks_info_wrapper {
+
+    position: relative;
+
+    display: flex;
+    width: 736px;
+    left: calc(50% - 736px/2);
+
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 64px;
+    
+}
+
+.tasks_created_text {
+
+    display: flex;
+    gap: 8px;
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: var(--blue);
+}
+
+.tasks_success_text {
+
+    display: flex;
+    gap: 8px;
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: var(--purple);
+}
+
+.tasks_counter {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 25px;
+    height: 19px;
+
+    color: var(--gray-200);
+    background-color: var(--gray-400);
+    border-radius: 8px;
+
+    font-size: 0.75rem;
+   
+}
+
+.tasks_counter_checked {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 52px;
+    height: 19px;
+
+    color: var(--gray-200);
+    background-color: var(--gray-400);
+    border-radius: 8px;
+
+    font-size: 0.75rem;
+   
+}
+
+.task_wrapper {
+
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    margin-top: 24px;
+}
+
